@@ -1,0 +1,71 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Atma:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="header">
+            <div class="caterpillar">
+                <img src="caterpillar-head.png" id="img-caterpillar-head">
+            </div>
+            <div class="title shadow">
+                <span class="C1">C</span>
+                <span class="R1">R</span>
+                <span class="I1">I</span>
+                <span class="T1">T</span> 
+                <span class="T2">T</span> 
+                <span class="E1">E</span>
+                <span class="R2">R</span>  
+                <span class="S2"> </span> 
+                <span class="C2">C</span> 
+                <span class="O1">O</span> 
+                <span class="U1">U</span> 
+                <span class="N1">N</span>  
+                <span class="T3">T</span> 
+                <span class="E2">E</span> 
+                <span class="R3">R</span> 
+            </div>
+            <div>
+                <img src="caterpillar-tail.png" id="img-caterpillar-tail">
+            </div>
+        </div>
+        <div class="main-content">
+            <h2 class="shadow">How many of these critters have you seen today?</h2>
+            <div class="count">
+                <div class="count-butterfly">
+                    <img src="butterfly.jpg" class="insect-img">
+                    <h3 id="count-el-butterfly" class="countbox">0</h3>
+                    <button id="increment-btn" onclick="increment_up(this.value)" value="btn-up-butterfly" class="shadow">&#11014</button>
+                    <button id="increment-btn" onclick="increment_down(this.value)" value="btn-down-butterfly" class="shadow">&#11015</button>
+                </div>
+                
+                <div class="count-ladybug">
+                    <img src="ladybug.jpg" class="insect-img">                
+                    <h3 id="count-el-ladybug" class="countbox">0</h3>
+                    <button id="increment-btn" onclick="increment_up(this.value)" value="btn-up-ladybug" class="shadow">&#11014</button>
+                    <button id="increment-btn" onclick="increment_down(this.value)" value="btn-down-ladybug" class="shadow">&#11015</button>
+                </div>
+                
+                <div class="count-ant">
+                    <img src="ant.webp" class="insect-img">                
+                    <h3 id="count-el-ant" class="countbox">0</h3>
+                    <button id="increment-btn" onclick="increment_up(this.value)" value="btn-up-ant" class="shadow">&#11014</button>
+                    <button id="increment-btn" onclick="increment_down(this.value)" value="btn-down-ant" class="shadow">&#11015</button>
+                </div>
+                
+                <div class="count-rolypoly">
+                    <img src="rolypoly.webp" class="insect-img"> 
+                    <h3 id="count-el-rolypoly" class="countbox">0</h3>
+                    <button id="increment-btn" onclick="increment_up(this.value)" value="btn-up-rolypoly" class="shadow">&#11014</button>
+                    <button id="increment-btn" onclick="increment_down(this.value)" value="btn-down-rolypoly" class="shadow">&#11015</button>
+                </div>
+            </div>
+        </div>
+        <!--<button id="save-btn" onclick="save()">SAVE</button>
+        <!--<p id="save-el" class="shadow">Previous entries: </p>-->
+        <script src="index.js">
+        </script>
+    </body>
+</html>

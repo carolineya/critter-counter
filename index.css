@@ -1,0 +1,183 @@
+body {
+    background-image: url("grass.jpg");
+    background-size: 1200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #5A92D3;
+    font-family: "Atma", system-ui;  
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+
+.header {
+    display: flex;
+    width: 1000px;
+    justify-content: center;
+    margin: auto;
+}
+
+
+#img-caterpillar-head {
+    height: 160px;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+
+#img-caterpillar-tail {
+    height: 50px;
+    padding-top: 0px;
+    padding-right: 30px;
+    transform: rotate(-30deg);
+    margin-top: 115px;
+    margin-left: 0;
+}
+
+.main-content {
+    width: 1000px;
+    margin: auto;
+}
+
+.h1 {
+    font-size: 50px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+.title {
+    font-size: 50px;
+    height: 180px;
+    margin-top: 60px;
+    padding-top: 50px;
+    padding-right: 0;
+    margin-right: 0;
+    font-weight: bolder;
+}
+
+.shadow {
+    text-shadow: 0px 0px 5px black;
+}
+
+.C1 {
+    transform: translate(-5px, 10px) rotate(-20deg);
+}
+
+.R1 {
+    transform: translate(-5px, -10px) rotate(-30deg);
+}
+
+.I1 {
+    transform: translate(-5px, -25px) rotate(-25deg);
+}
+
+.T1 {
+    transform: translate(0px, -30px) rotate(0deg);
+}
+
+.T2 {
+    transform: translate(5px, -25px) rotate(25deg);
+}
+
+.E1 {
+    transform: translate(5px, -5px) rotate(50deg);
+}
+
+.R2 {
+    transform: translate(-5px, 25px) rotate(50deg);
+}
+
+.C2 {
+    transform: translate(0px, 50px) rotate(30deg);
+}
+
+.O1 {
+    transform: translate(-5px, 70px) rotate(20deg);
+}
+
+.U1 {
+    transform: translate(-5px, 75px) rotate(10deg);
+}
+
+.N1 {
+    transform: translate(0px, 75px) rotate(0deg);
+}
+
+.T3 {
+    transform: translate(5px, 70px) rotate(-15deg);
+}
+
+.E2 {
+    transform: translate(5px, 50px) rotate(-30deg);
+}
+
+.R3 {
+    transform: translate(0px, 30px) rotate(-30deg);
+}
+
+span {
+    display: inline-block;
+}
+
+h2 {
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.count {
+    display: flex;
+    justify-content: space-around;
+}
+
+.insect-img {
+    height: 150px;
+    border: 5px solid white;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+
+.countbox {
+    border: 5px solid white;
+    border-radius: 10px;
+    background-color: #5A92D3; 
+    text-shadow: 0px 0px 5px black;
+}
+
+button {
+    border: 5px solid white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    width: 100px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px black;
+    background-color: transparent;
+}
+
+#increment-btn {
+    background-color: #5A92D3;
+}
+
+#increment-btn:hover {
+    border: 10px solid white;
+    background-color: #2a79d4;
+}
+
+#save-btn {
+    background: darkgreen;
+}
+
+@media (width: 1000px) {
+    .header {
+        width: 100%;
+    }
+}
+
